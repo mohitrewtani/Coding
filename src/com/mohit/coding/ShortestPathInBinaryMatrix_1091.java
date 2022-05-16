@@ -7,6 +7,13 @@ import java.util.Scanner;
 public class ShortestPathInBinaryMatrix_1091 {
 	
 	   public static void main(String[] args) {
+		   /*
+		   * Given an n x n binary matrix grid, 
+		   * return the length of the shortest clear path in the matrix. 
+		   * If there is no clear path, return -1.
+		   * Input_1: grid = [[0,1],[1,0]]     Input_2: grid = [[0,0,0],[1,1,0],[1,1,0]]
+                   * Output_1: 2                       Output_2: 4
+		   */
 		   Scanner sc = new Scanner(System.in);
 		   int n = sc.nextInt();
 		   int [][] grid = new int[n][n];
